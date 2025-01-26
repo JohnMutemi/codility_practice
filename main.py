@@ -195,3 +195,23 @@ def square_root(n):
             right = mid - 1
     return right
 print(square_root(16))  # Output: 4
+
+# calculate grades
+def calculate_grade(marks):
+    if marks > 80:
+        return "A"
+    elif marks > 70:
+        return "B"
+    elif marks > 60:
+        return "C"
+    elif marks > 50:
+        return "D"
+    elif marks >= 0:
+        return "F"
+    else:
+        return "Invalid marks"
+
+# Test the function
+marks = int(input("Enter the marks: "))
+grade = calculate_grade(marks)
+print(f"The grade for {marks} marks is: {grade}")
