@@ -8,6 +8,7 @@ def fibonacci(n):
 
 print(fibonacci(10))
 
+
 # Print numbers from 1 to n. For multiples of 3, print "Fizz", for multiples of 5 print "Buzz", and for multiples of both, print "FizzBuzz".
 
 def fizz_buzz(n):
@@ -215,3 +216,14 @@ def calculate_grade(marks):
 marks = int(input("Enter the marks: "))
 grade = calculate_grade(marks)
 print(f"The grade for {marks} marks is: {grade}")
+
+# Counting from 0 to 10 using a While Loop
+counter=0
+while counter<=10:
+    print(counter)
+    counter+=1
+
+# reverse
+# Using for loop to count from 10 to 0
+for i in range(10, -1, -1):  # Start at 10, end at 0, step -1 (decrement)
+    print(i)
